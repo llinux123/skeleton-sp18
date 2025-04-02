@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class NBody {
-    public static In in ;
+    private static In in ;
     public static void main(String[] args) {
         double T = Double.parseDouble(args[0]);
         double dt = Double.parseDouble(args[1]);
